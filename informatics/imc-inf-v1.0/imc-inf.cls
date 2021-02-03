@@ -18,10 +18,10 @@
 % change style of chapter header 
 \RequirePackage{titlesec}
 \titleformat{\chapter}[display] %shape
-{\filleft\Huge\bfseries}    %format
-{\makebox[\linewidth][r]{\raisebox{3pt}[10pt][10pt]{\textcolor{gray!25}{\usefont{T1}{lmss}{b}{n}\fontsize{180pt}{95pt}\selectfont\thechapter}}}
+{\filleft\Huge\bfseries}   %format
+{\makebox[\linewidth][r]{\raisebox{3pt}[10pt][10pt]{\textcolor{gray!50}{\usefont{T1}{lmss}{b}{n}\fontsize{90pt}{9pt}\selectfont\thechapter}}}
 	{}  %default would be huge
-}   %label
+}    %label
 {-1ex} %sep
 {}  %before-code
 [\vspace{0.5ex}\titlerule]
