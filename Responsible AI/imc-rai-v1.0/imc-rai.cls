@@ -111,7 +111,7 @@
                {\large\bfseries\@subtitle}       \\       
                \vspace{1em}               
                \vfill
-              \textcolor{imcorange} {\Large\bfseries\@thesistype} \\
+              \textcolor{imctech} {\Large\bfseries\@thesistype} \\
 			   \vspace{2em}
 			   {\large\bfseries\
 			  \textit{ Submitted to} \\
@@ -120,7 +120,7 @@
 			   \vspace{1em}
 			   \includegraphics[width=0.5\textwidth]{logo_IMC_quer.png}\\
 			   \vspace{2em}		   
-                \textcolor{imcorange}{\Large\bfseries\ Master Programme Engineering Responsible AI Systems}\\
+                \textcolor{imctech}{\Large\bfseries\ Master Programme Engineering Responsible AI Systems}\\
                \vspace{2em}
                {\large\bfseries\ by}\\                                
                \vspace{1em}
