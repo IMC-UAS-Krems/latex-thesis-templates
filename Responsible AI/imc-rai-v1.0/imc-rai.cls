@@ -112,16 +112,15 @@
                \vspace{1em}               
                \vfill
               \textcolor{imcorange} {\Large\bfseries\@thesistype} \\
-			   \vspace{1em}
+			   \vspace{2em}
 			   {\large\bfseries\
 			  \textit{ Submitted to} \\
-			   IMC University of Applied Sciences Krems\\
                      
 			   }
-			   \vspace{2em}
-			   \includegraphics[width=1\textwidth]{imc.png}\\
+			   \vspace{1em}
+			   \includegraphics[width=0.5\textwidth]{logo_IMC_quer.png}\\
 			   \vspace{2em}		   
-                \textcolor{imcorange}{\large\bfseries\ Master Programme Engineering Responsible AI Systems}\\
+                \textcolor{imcorange}{\Large\bfseries\ Master Programme Engineering Responsible AI Systems}\\
                \vspace{2em}
                {\large\bfseries\ by}\\                                
                \vspace{1em}
