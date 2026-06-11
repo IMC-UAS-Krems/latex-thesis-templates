@@ -1,0 +1,113 @@
+\documentclass{imc-rai}
+% Prevent blank pages inserted by book-like classes: use single-sided clears
+% (alternative: pass `openany` to the class if supported: \documentclass[openany]{imc-rai})
+\let\cleardoublepage\clearpage
+
+\title{The title of the thesis goes here}
+\subtitle{Sub-title of the thesis (leave empty if not required)}
+\thesistype{Master Thesis Proposal} % or Master Expos\'e
+\author{Elisabeth Musterfrau}
+\supervisor{Dr. Supervisor Musterfrau}
+\copyrightyear{2026}
+\submissiondate{19.04.2026}
+\keywords {Data Analytics, Machine Learning, Useability} % add keywords here 
+
+
+
+% \usepackage{xyz}
+% ... add your own packages here!
+\usepackage{listings}
+\usepackage{subcaption}
+                              
+
+\begin{document}
+\frontmatter\maketitle{}
+
+
+
+%   MAIN MATTER  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter%
+
+\chapter*{Thesis Proposal}
+
+{\Large\textbf{Title: } The title of the thesis goes here}
+
+\section*{Motivation}
+
+Describe here the motivation for the thesis. Why is the topic relevant? What are the challenges? What are the expected contributions?
+
+\noindent \textbf{Expected length: 1-2 pages.}
+
+\section*{Research Questions}
+
+List here the research questions that you want to answer in your thesis. These should be specific and measurable questions that guide your research.
+
+\noindent \textbf{Expected length: 1/2 page.}
+
+\section*{State of the Art}
+
+Describe here the state of the art in the field of your thesis. What are the existing approaches? Use the corresponding sources \cite{988366} to support your description.
+What are their strengths and weaknesses? How does your proposed approach differ from the existing ones?
+
+\noindent \textbf{Expected length: 1-2 pages.}
+
+\section*{Methodology}
+
+Describe here the methodology that you will use to answer your research questions. What are the steps that you will take? What are the tools and techniques that you will use? How will you evaluate your results?
+
+\noindent \textbf{Expected length: 1-2 pages.}
+
+\section*{Expected Results}
+
+Describe here the expected results of your thesis. What are the outcomes that you hope to achieve? How will they contribute to the field? What are the potential implications of your results?
+
+\noindent \textbf{Expected length: 1-2 pages.}
+
+\section*{Work Plan}
+
+Describe here the work plan for your thesis. What are the milestones that you want to achieve? How will you allocate your time and resources? What are the risks and how will you mitigate them?
+Use the following table to outline your work plan:
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Milestone} & \textbf{Description} & \textbf{Deadline} \\
+\hline
+Milestone 1 & Description of milestone 1 & Date 1 \\
+\hline
+Milestone 2 & Description of milestone 2 & Date 2 \\
+\hline
+Milestone 3 & Description of milestone 3 & Date 3 \\
+\hline
+Milestone 4 & Description of milestone 4 & Date 4 \\
+\hline
+Milestone 5 & Description of milestone 5 & Date 5 \\
+\hline
+\end{tabular}
+\caption{Work Plan for the Thesis}
+\label{tab:workplan}
+\end{table}
+
+\noindent \textbf{Expected length: 1/2-1 pages.}
+
+
+%   BACK MATTER  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   References and appendices. Appendices come after the bibliography and
+%   should be in the order that they are referred to in the text.
+%
+%   If you include figures, etc. in an appendix, be sure to use
+%
+%       \caption[]{...}
+%
+%   to make sure they are not listed in the List of Figures.
+%
+
+\backmatter%
+	\addtoToC{Bibliography}
+	\bibliographystyle{IEEEtranS}
+ \typeout{}
+	\bibliography{references}
+	
+
+\end{document}
