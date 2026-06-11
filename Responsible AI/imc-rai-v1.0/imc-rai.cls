@@ -31,8 +31,8 @@
 \titleformat{\chapter}[display]
   { \normalsize \huge \color{imcgray}}
   { %
-    \color{imcorange}{\chaptertitlename} %
-    {\fontsize{120}{80}\color{imcorange}\selectfont\thechapter} %
+    \color{black}{\chaptertitlename} %
+    {\fontsize{120}{80}\color{black}\selectfont\thechapter} %
   }
   {0pt} %
   {\normalfont\scshape\Huge} %
